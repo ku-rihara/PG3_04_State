@@ -1,7 +1,7 @@
 #include <Novice.h>
-#include"Game/Scene/SceneManager.h"
-#include "Game/Scene/SceneTitle.h"
-#include"Game/Input/InputManager.h"
+#include"Scene/SceneManager.h"
+#include "Scene/SceneTitle.h"
+#include"Input/InputManager.h"
 
 const char kWindowTitle[] = "LE2A_11_クリハラ_ケイタ_PG3_04_01";
 

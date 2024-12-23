@@ -1,6 +1,6 @@
 ﻿#include "SceneTitle.h"
 #include"ScenePlay.h"
-#include"Game/Input/InputManager.h"
+#include"Input/InputManager.h"
 #include"SceneManager.h"
 
 SceneTitle::SceneTitle() {

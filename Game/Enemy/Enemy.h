@@ -1,6 +1,6 @@
 #pragma once 
-#include"Vector3.h"
-#include"Game/Enemy/behavior/BaseEnemyBehavior.h"
+#include"/KamataEngine/DirectXGame/math/Vector3.h"
+#include"Enemy/behavior/BaseEnemyBehavior.h"
 #include<memory>
 
 class Enemy {

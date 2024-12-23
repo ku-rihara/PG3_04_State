@@ -1,4 +1,4 @@
-﻿#include"Game/Enemy/Enemy.h"
+﻿#include"Enemy/Enemy.h"
 #include"behavior/EnemyRoot.h"
 #include"behavior/EnemyDeath.h"
 #include<Novice.h>

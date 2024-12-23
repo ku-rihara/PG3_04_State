@@ -1,5 +1,5 @@
 /// behavior
-#include"Game/Enemy/behavior/EnemyRoot.h"
+#include"Enemy/behavior/EnemyRoot.h"
 
 //初期化
 EnemyRoot::EnemyRoot(Enemy* enemy)

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Model.h"
-#include "WorldTransform.h"
+#include"\KamataEngine\DirectXGame\math\Vector3.h"
+#include<stdint.h>
 /// <summary>
 /// 自キャラの弾
 /// </summary>

@@ -14,11 +14,65 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ed474c93-f3e1-4fb6-8b05-276c0e8bba2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{bd892974-d644-4233-84ec-592cd05a1446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Behavior">
+      <UniqueIdentifier>{5c7d8556-fb8c-4498-a282-28f2aa7a98e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Input">
+      <UniqueIdentifier>{98cd49d5-9bf7-4cd6-8499-cef2cae341cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{728b4149-903d-4229-8e61-e013ad54661d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{9eef71b4-a1a7-45a5-8f8b-fc37d88a53fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\behavior\BaseEnemyBehavior.cpp">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\behavior\EnemyDeath.cpp">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\behavior\EnemyRoot.cpp">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Input\InputManager.cpp">
+      <Filter>Game\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerBullet.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\BaseScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneClear.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\ScenePlay.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneTitle.cpp">
+      <Filter>Game\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +156,42 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\behavior\BaseEnemyBehavior.h">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\behavior\EnemyDeath.h">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\behavior\EnemyRoot.h">
+      <Filter>Game\Enemy\Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Input\InputManager.h">
+      <Filter>Game\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerBullet.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\BaseScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneClear.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\ScenePlay.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneTitle.h">
+      <Filter>Game\Scene</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

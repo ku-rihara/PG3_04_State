@@ -1,6 +1,6 @@
 /// behavior
-#include"Game/Enemy/behavior/EnemyDeath.h"
-#include"Game/Enemy/Enemy.h"
+#include"Enemy/behavior/EnemyDeath.h"
+#include"Enemy/Enemy.h"
 
 //初期化
 EnemyDeath::EnemyDeath(Enemy* enemy)

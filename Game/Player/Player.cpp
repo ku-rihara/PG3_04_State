@@ -1,5 +1,5 @@
 #include "Player.h"
-#include"Game/Input/InputManager.h"
+#include"Input/InputManager.h"
 
 
 Player::Player() {

@@ -4,7 +4,7 @@
 #include"PlayerBullet.h"
 //std
 #include<list>
-
+#include<memory>
 
 class Player {
 private:

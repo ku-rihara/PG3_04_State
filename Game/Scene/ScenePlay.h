@@ -3,8 +3,8 @@
 //base
 #include "BaseScene.h"
 
-#include"Game/Enemy/Enemy.h"
-#include"Game/Player/Player.h"
+#include"Enemy/Enemy.h"
+#include"Player/Player.h"
 #include<memory>
 
 class ScenePlay :public BaseScene {

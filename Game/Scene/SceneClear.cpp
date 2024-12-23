@@ -1,6 +1,6 @@
 ﻿#include "SceneClear.h"
 #include "SceneTitle.h"
-#include"Game/Input/InputManager.h"
+#include"Input/InputManager.h"
 #include"SceneManager.h"
 
 SceneClear::SceneClear() {
