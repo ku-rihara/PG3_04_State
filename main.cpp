@@ -8,6 +8,7 @@ const char kWindowTitle[] = "LE2A_11_クリハラ_ケイタ_PG3_04_01";
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
+
 	// ライブラリの初期化
 	Novice::Initialize(kWindowTitle, 1280, 720);
 
